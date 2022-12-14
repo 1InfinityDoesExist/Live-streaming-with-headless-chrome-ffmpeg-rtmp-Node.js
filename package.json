@@ -1,0 +1,28 @@
+{
+  "name": "youtube_live",
+  "version": "1.0.0",
+  "description": "Youtube live steaming ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express-oas-generator": "^1.0.45",
+    "swagger-json": "^2.0.0",
+    "swagger-ui-express": "^4.6.0",
+    "swagger-jsdoc": "^6.2.5",
+    "body-parser": "^1.19.0",
+    "express-request-id": "^1.4.1",
+    "express": "^4.17.1",
+    "uuid": "^8.2.0",
+    "puppeteer-stream": "^2.1.2",
+    "child_process": "^1.0.2",
+    "puppeteer": "^19.4.0"
+  },
+  "author": "GSIHYD1518",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,15 @@
+language: javascript
+node_js:
+- 10.4.0
+after_success: npm run coverage
+script:
+- npm i
+- npm test
+deploy:
+  provider: npm
+  email: vladimirdjukic90@gmail.com
+  api_key: ${TOKEN}
+  skip_cleanup: true
+  on:
+    tags: false
+    repo: vforv/joi-express
